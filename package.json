@@ -1,0 +1,25 @@
+{
+  "name": "minesweeper-node",
+  "version": "1.0.0",
+  "description": "Minesweeper game as a Node.js console app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmglennon/minesweeper-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmglennon/minesweeper-node/issues"
+  },
+  "homepage": "https://github.com/rmglennon/minesweeper-node#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
